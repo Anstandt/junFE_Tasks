@@ -3,9 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My first site</title>
+    <title>Вакансии</title>
+    <style type="text/css"> 
+        .div-padding {
+            padding: 15px;
+        }
+       </style>
 </head>
 <body>
-    
+    <form action="index.html" method="post">
+        <div>
+    <h1>Вакансия: Junior Frontend Developer</h1>
+        </div>
+    <div class="div-padding" style="display: inline-block;">
+    <figure>
+        <img src="image/dog.jpg" width="200" height="200" alt="Рис. 4">
+    </figure>
+</div>
+    <div class="div-padding" style="display: inline-block;">
+        <span>Имя: Вероника</span> <br/>
+        <span><a href="https://github.com/Anstandt?tab=repositories">Ссылка на репозиторий в Github</a></span> <br/>
+        <span>Опыт работы: нет</span> <br/>
+    </div>
+
+<div style="clear: left" class="div-padding">
+    <label style="display: inline;">Дата собеседования</label>
+    <input type="date" name="meeting-date" placeholder="Дата собеседования" style="display: inline;"></div>
+
+    <div class="div-padding">
+    <label>Уровень английского:</label>
+    <input type="radio" id ="bad" value="bad" name="english-level"><label for="bad">Плохо</label>
+    <input type="radio" id="medium" value="medium" name="english-level"><label for="medium">Средне</label>
+    <input type="radio" id="good" value="good" name="english-level"><label for="good">Хорошо</label>
+    <input type="radio" id="excellent" value="excellent" name="english-level"><label for="excellent">Превосходно</label> </div>
+
+    <div class="div-padding">
+    <label>Ключевые навыки:</label>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+        <li>Photoshop</li>
+    </ul>
+    <input type="text" id="knowledge-add" name="knowledge-add" placeholder="Добавить навык...">    
+    <button type="submit">Добавить в список</button></div>
+
+    <div class="div-padding">
+    <label for="soft-skills">Коммуникабельность</label>
+    <select id="soft-skills" name="soft-skills">
+        <option value="hight">С удовольствием общаюсь со всеми подряд</option>
+        <option value="low">Не люблю пустых разговоров</option>
+        <option value="so-so">Могу говорить, могу не говорить</option>
+        <option value="very low">С трудом начинаю разговор с другими людьми</option>
+        <option value="cheerful"> Люблю общаться и смешные шутки</option>
+    </select></div>
+
+    <div class="div-padding">
+    <label for="salary">Желаемая з/п</label> <input type="text" id="salary" name="salary-amount" placeholder="Введите значение..."></div>
+
+    <div class="div-padding">
+    <label for="reasons">Подходит по критериям:</label><br/>
+        <input type="checkbox" id="know-english" value="know-english" name="reasons"><label class="light" for="know-english">Знание английского</label>
+        <input type="checkbox" id="wanted-salary" value="wanted-salary" name="reasons"><label class="light" for="wanted-salary">Оклад</label>
+        <input type="checkbox" id="knowledges" value="knowledges" name="reasons"><label class="light" for="knowledges">Навыки</label>
+        <input type="checkbox" id="buddy" value="buddy" name="reasons"><label class="light" for="buddy">Сразу видно, что свой человек</label>
+    </div>
+
+    <div class="div-padding">
+        <label>Образование, курсы и т.д.</label>
+        <table border="1" width="100%" cellpadding="5">
+            <tr>
+             <th>#</th>
+             <th>Сроки обучения</th>
+             <th>Наименование учебного заведения, курсов...</th>
+            </tr>
+            <tr>
+             <td>1</td>
+             <td>Ячейка</td>
+             <td>Ячейка</td>
+           </tr>
+           <tr>
+            <td>2</td>
+            <td>Ячейка</td>
+            <td>Ячейка</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Ячейка</td>
+            <td>Ячейка</td>
+          </tr>
+          </table>
+    </div>
+
+</div>
+
+</form>
 </body>
 </html>
