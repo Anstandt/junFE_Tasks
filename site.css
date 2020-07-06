@@ -1,6 +1,7 @@
 /*селектор по атрибуту*/
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
 }
 /*селектор по тэгу*/
 
@@ -11,6 +12,10 @@
 /*селектор для атрибута определенного типа*/
 [type="number"]{
     color: blue;
+}
+
+button[type="submit"]{
+
 }
 
 /*селектор по id - перед именем #*/
