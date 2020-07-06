@@ -1,0 +1,14 @@
+/*селектор по атрибуту*/
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*селектор по тэгу*/
+
+/*селектор по атрибуту - в квадратных скобках*/
+[type] {
+    font-weight: bold;
+}
+
+[type="number"]{
+    color: blue;
+}
