@@ -12,30 +12,27 @@
 </head>
 <body>
     <form action="index.html" method="post">
-        <div>
     <h1>Вакансия: Junior Frontend Developer</h1>
-        </div>
     <div class="div-padding" style="display: inline-block;">
     <figure>
         <img src="image/dog.jpg" width="200" height="200" alt="Рис. 4">
     </figure>
 </div>
-    <div class="div-padding" style="display: inline-block;">
+    <div class="div-padding" style="display: inline-block; vertical-align: top;">
         <span>Имя: Вероника</span> <br/>
         <span><a href="https://github.com/Anstandt?tab=repositories">Ссылка на репозиторий в Github</a></span> <br/>
         <span>Опыт работы: нет</span> <br/>
     </div>
-
-<div style="clear: left" class="div-padding">
+    <div class="div-padding">
     <span style="display: inline;">Дата собеседования</span>
     <input type="date" name="meeting-date" placeholder="Дата собеседования" style="display: inline;"></div>
 
     <div class="div-padding">
     <span>Уровень английского:</span>
-    <input type="radio" id ="bad" value="bad" name="english-level"><label for="bad">Плохо</label>
-    <input type="radio" id="medium" value="medium" name="english-level"><label for="medium">Средне</label>
-    <input type="radio" id="good" value="good" name="english-level"><label for="good">Хорошо</label>
-    <input type="radio" id="excellent" value="excellent" name="english-level"><label for="excellent">Превосходно</label> </div>
+    <label><input type="radio" id ="bad" value="bad" name="english-level"><span>Плохо</span></label>
+    <label><input type="radio" id="medium" value="medium" name="english-level"><span>Средне</span></label>
+    <label><input type="radio" id="good" value="good" name="english-level"><span>Хорошо</span></label>
+    <label><input type="radio" id="excellent" value="excellent" name="english-level"><span>Превосходно</span></label> </div>
 
     <div class="div-padding">
     <span>Ключевые навыки:</span>
@@ -92,10 +89,14 @@
             <td>Ячейка</td>
             <td>Ячейка</td>
           </tr>
+          <tr>
+            <td>4</td>
+            <td>Ячейка</td>
+            <td>Ячейка</td>
+          </tr>
           </table>
     </div>
     <button type="submit">Отправить</button></div>
-</div>
 
 </form>
 </body>
