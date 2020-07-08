@@ -1,9 +1,14 @@
-/*селектор по атрибуту*/
+/*селектор универсальный*/
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
 }
 /*селектор по тэгу*/
+
+h1{
+    font-family: 'Noto Sans', sans-serif;
+    font-style: italic;
+}
 
 /*селектор по атрибуту - в квадратных скобках*/
 [type] {
