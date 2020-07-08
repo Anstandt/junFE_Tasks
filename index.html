@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="site.css">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,700;1,300&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
     <title>Вакансии</title>
 </head>
 <body>
@@ -43,7 +44,7 @@
     <button type="submit">Добавить в список</button></div>
 
     <div class="div-padding">
-    <span for="soft-skills">Коммуникабельность</span>
+    <span>Коммуникабельность</span>
     <select id="soft-skills" name="soft-skills">
         <option value="hight">С удовольствием общаюсь со всеми подряд</option>
         <option value="low">Не люблю пустых разговоров</option>
@@ -53,14 +54,15 @@
     </select></div>
 
     <div class="div-padding">
-    <label for="salary">Желаемая з/п</label> <input type="number" id="salary" name="salary-amount" placeholder="Введите значение..."></div>
+    <span>Желаемая з/п</span>
+    <input type="number" id="salary" name="salary-amount" placeholder="Введите значение..."></div>
 
     <div class="div-padding">
-    <label for="reasons">Подходит по критериям:</label><br/>
-        <input type="checkbox" id="know-english" value="know-english" name="reasons"><label class="light" for="know-english">Знание английского</label>
-        <input type="checkbox" id="wanted-salary" value="wanted-salary" name="reasons"><label class="light" for="wanted-salary">Оклад</label>
-        <input type="checkbox" id="knowledges" value="knowledges" name="reasons"><label class="light" for="knowledges">Навыки</label>
-        <input type="checkbox" id="buddy" value="buddy" name="reasons"><label class="light" for="buddy">Сразу видно, что свой человек</label>
+    <span>Подходит по критериям:</span><br/>
+       <label><input type="checkbox" id="know-english" value="know-english" name="reasons"><span>Знание английского</span></label>
+       <label><input type="checkbox" id="wanted-salary" value="wanted-salary" name="reasons"><span>Оклад</span></label>
+       <label><input type="checkbox" id="knowledges" value="knowledges" name="reasons"><span>Навыки</span></label>
+       <label><input type="checkbox" id="buddy" value="buddy" name="reasons"><span>Сразу видно, что свой человек</span></label>
     </div>
 
     <div class="div-padding">

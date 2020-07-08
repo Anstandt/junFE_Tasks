@@ -1,31 +1,17 @@
-/*селектор универсальный*/
+
 * {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
 }
-/*селектор по тэгу*/
 
 h1{
     font-family: 'Noto Sans', sans-serif;
-    font-style: italic;
+    font-style: bold;
 }
 
-/*селектор по атрибуту - в квадратных скобках*/
-[type] {
-    font-weight: bold;
-}
-/*селектор для атрибута определенного типа*/
-[type="number"]{
-    color: blue;
+span, li {
+    font-family: 'Merriweather', serif;
 }
 
-button[type="submit"]{
-
-}
-
-/*селектор по id - перед именем #*/
-
-/*селектор класса - перед именем точка*/
 .div-padding {
     padding: 15px;
 }
