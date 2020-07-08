@@ -5,12 +5,16 @@
 
 body { 
     margin: 0;
+    background: #fefcea; /* Для старых браузров */
+    background: linear-gradient(to top, #fefcea, #f1da36);
    }
 
 h1{
     font-family: 'Noto Sans', sans-serif;
-    font-style: bold;
+    font-style: italic;
     color: #4CAF50;
+    margin: auto;
+    width: 600px
 }
 
 span, li {
@@ -20,7 +24,9 @@ span, li {
 .form{
     width: 700px;
     margin: auto; 
-    background: #fd0;
+    background: #f1da36;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
    }
 
 .div-padding {
@@ -28,13 +34,13 @@ span, li {
 }
 
 .submit {
-    background-color: #4CAF50; 
+    background-color: #4CAF50;
+    background: linear-gradient(to top, #95c475 0%, #accc3a 36%, #85d307 100%); 
     border: none;
+    border-radius: 10px;
     color: white;
     padding: 10px 32px;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
     font-size: 16px;
   }
 
