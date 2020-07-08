@@ -3,6 +3,10 @@
     box-sizing: border-box;
 }
 
+body { 
+    margin: 0;
+   }
+
 h1{
     font-family: 'Noto Sans', sans-serif;
     font-style: bold;
@@ -13,12 +17,18 @@ span, li {
     font-family: 'Merriweather', serif;
 }
 
+.form{
+    width: 700px;
+    margin: auto; 
+    background: #fd0;
+   }
+
 .div-padding {
     padding: 15px;
 }
 
 .submit {
-    background-color: #4CAF50; /* Green */
+    background-color: #4CAF50; 
     border: none;
     color: white;
     padding: 10px 32px;
@@ -33,16 +43,25 @@ span, li {
   }
 
   .hover-table { 
-    width: 100%; /* Ширина таблицы */
-    border-collapse: collapse; /* Отображать только одинарные линии */
+    width: 75%;
+    border-collapse: collapse;
+    margin: auto;
    }
 
-   .hover-table td {
+   .hover-table td, .hover-table th{
        border: #4CAF50 1px solid;
        padding: 5px;
    }
    
    .hover-table tr:hover {
        background-color: #b5e7a0;
+   }
+
+   .turn:hover {
+    -moz-transform: rotate(359deg); /* Для Firefox */
+    -ms-transform: rotate(359deg); /* Для IE */
+    -webkit-transform: rotate(359deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(359deg); /* Для Opera */
+    transform: rotate(359deg);
    }
 
