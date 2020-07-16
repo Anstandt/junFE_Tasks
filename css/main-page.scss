@@ -1,1 +1,15 @@
 @import 'common';
+
+.first-screen{
+    position: relative;
+    height: 647px;
+    .container{
+
+}
+    .hot-offer-block{
+        position: absolute;
+        text-align: left;
+        top: 50%;
+        left: 50%;
+    }
+}

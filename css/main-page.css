@@ -8,7 +8,51 @@ body {
 }
 
 .container {
-  width: 1180px;
+  max-width: 1170px;
+  width: 1170px;
   margin: 0 auto;
+}
+
+header {
+  border-bottom: 1px solid black;
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+header .container {
+  height: 110px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-left {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-right {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.first-screen {
+  position: relative;
+  height: 647px;
+}
+
+.first-screen .hot-offer-block {
+  position: absolute;
+  text-align: left;
+  top: 50%;
+  left: 50%;
 }
 /*# sourceMappingURL=main-page.css.map */

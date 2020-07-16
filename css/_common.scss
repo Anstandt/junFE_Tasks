@@ -7,6 +7,29 @@ body {
 }
 
 .container {
-    width: 1180px;
+    max-width: 1170px;
+    width: 1170px;
     margin: 0 auto;
+}
+
+header{
+    border-bottom: 1px solid black;
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    .container{
+        height: 110px;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.header-left{
+    align-items: center;
+}
+.header-right{
+    align-items: center;
 }
