@@ -8,8 +8,8 @@ s = w;
 
 w = u;
 
-console.log (a);
-console.log (b);
+alert(s);
+alert(w);
 
 
 // 2
