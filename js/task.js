@@ -1,15 +1,15 @@
 // 1
-//let a = prompt("Укажите первую переменную");
-//let b = prompt("Укажите вторую переменную");
+let s = prompt("Укажите первую переменную");
+let w = prompt("Укажите вторую переменную");
 
-//let c = a;
+let u = s;
 
-//a = b;
+s = w;
 
-//b = c;
+w = u;
 
-//console.log (a);
-//console.log (b);
+console.log (a);
+console.log (b);
 
 
 // 2
