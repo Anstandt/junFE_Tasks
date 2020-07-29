@@ -96,15 +96,14 @@ function halfReverse (sub){
         let division = sub.length / 2;
         let half = sub.splice(0,division);
         let newArr = [];
-        newArr = newArr.concat(sub, half);
-        return newArr;
+        return newArr.concat(sub, half);
+
     } else {
         let division = (sub.length / 2) - 0.5;
         let half = sub.splice(0,division);
         let secondHalf = sub.splice(1,division);
         let newArr = [];
-        newArr = newArr.concat(secondHalf,sub, half);
-        return newArr;
+        return newArr.concat(secondHalf,sub, half);
     }
 }
 
@@ -132,8 +131,7 @@ console.log(minorSome);
 function sumWithoutMaxMin (arr) {
     let maxMinArr = [getMaxOfArray(arr),getMinOfArray(arr)];
     let arrForSum = arr.filter(item => !maxMinArr.includes(item));
-    let arrSum = arrForSum.reduce((arrSum, current) => arrSum + current);
-    return arrSum;
+    return arrForSum.reduce((arrSum, current) => arrSum + current);
 }
 
 let superSum = sumWithoutMaxMin(arrFour);
