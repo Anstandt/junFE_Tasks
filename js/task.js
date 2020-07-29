@@ -14,6 +14,14 @@ alert(w);
 
 // 2
 
+
+let division = sub.length / 2;
+let modulo = sub.length % 2;
+
+console.log(division); 
+console.log(modulo); 
+
+
 let legFirst = prompt("Укажите длину первого катета");
 let legSecond = prompt("Укажите длину второго катета");
 
